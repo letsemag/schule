@@ -15,10 +15,10 @@ a {
     text-decoration: none;
 }
 
-.navbar-list{
+.navbar-list, .navbar-list a{
     list-style-type: none;
     cursor: pointer !important;
-    color:red;
+    color: #DA6B51;
 }
 
 h1,h2,h3, a {
