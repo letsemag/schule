@@ -4,6 +4,7 @@
    <title>Berufsschule Homepage | One Pager Projekt</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
@@ -11,16 +12,29 @@
 <!--HEADER-------------------------------------------------------------->
 <header>
    <div id="logo">
-      <a href="#">
+      <a href="https://foryu-media.de/">
         <img src="img/logo.png" alt="Logo">
       </a>
    </div>
    <nav id="main-nav">
       <ul>
-         <li class="navbar-list"><a href="index.html">Home</a></li>
-         <li class="navbar-list"><a href="#about">About</a></li>
-         <li class="navbar-list"><a href="#work">Aufgaben</a></li>
-         <li class="navbar-list"><a href="#contact">Contact</a></li>
+         <li class="navbar-list"><a href="index.html">Startseite</a></li>
+         <li class="navbar-list"><a href="step-8/step8.html">Step8</a></li>
+         <li class="navbar-list">
+            <a href="#about">
+               <div class="dropdown">
+                  <span>Über mich und Aufgabe</span>
+                  <div class="dropdown-content">
+                     <ul>
+                        <li>Stuff 1</li>
+                        <li>Stuff 2</li>
+                     </ul>
+                  </div>
+               </div>
+            </a>
+         </li>
+         <li class="navbar-list"><a href="#work">weitere Aufgaben</a></li>
+         <li class="navbar-list"><a href="#contact">Kontakt</a></li>
       </ul>
    </nav>
 </header>
@@ -38,70 +52,11 @@
    <h3>About</h3>
    <hr>
    <img src="img/avatar.png" alt="Avatar">
-   <h4>Justin / Mediengestalter</h4>
-   <p>Text</p>
-   <h4>Von lasse</h4>
-   <h4>Zubereitung</h4>
-   <ol>
-      <li>Mit Punkten</li>
-      <li>Mit Punkten</li>
-      <ol type="a">
-         <li>Unterpunkt</li>
-      </ol>
-      <li>Mit Punkten</li>
-      <li>Mit Punkten</li>
-      <li>Mit Punkten</li>
-      <li>Mit Punkten</li>
-      <li>Mit Punkten</li>
-   </ol>
-   <h4>Zutatenliste</h4>
-   <ul>
-      <li>Ohne Punkte</li>
-      <li>Ohne Punkte</li>
-      <ul style="list-style-type:circle;">
-         <li>Unterpunkt</li>
-      </ul>
-      <li>Ohne Punkte</li>
-      <li>Ohne Punkte</li>
-      <li>Ohne Punkte</li>
-      <li>Ohne Punkte</li>
-      <li>Ohne Punkte</li>
-      <li>Ohne Punkte</li>
-      <li>Ohne Punkte</li>
-   </ul>
-
-   <table style="width:60vw; margin-left: 20vw;" class="color-table">
-      <tr class="table-row-height">
-         <th style="background-color: yellow; width: 6em;">Yellow</th>
-         <th style="background-color: purple;">purple</th>
-         <th style="background-color: turquoise;">turkis</th>
-         <th style="background-color: grey;">grey</th>
-      </tr>
-      <tr class="table-row-height">
-         <td colspan="2">Bill Gates</td>
-         <td>55577854</td>
-         <td>55577855</td>
-      </tr>
-      <tr class="table-row-height">
-         <td>Bill Gates</td>
-         <td rowspan="2">55577854</td>
-         <td>55577855</td>
-         <td rowspan="3">55577855</td>
-      </tr>
-      <tr class="table-row-height">
-         <td>Bill Gates</td>
-         <td>55577854</td>
-      </tr>
-      <tr class="table-row-height">
-         <td colspan="3">Bill Gates</td>
-      </tr>
-   </table>
-
-   <iframe src="https://player.vimeo.com/video/7026360" width="640" height="360" frameborder="0"
-      allow="autoplay; fullscreen" allowfullscreen></iframe>
-   <p><a href="https://vimeo.com/7026360">Macadamia Nut Brittle | Ricci/Forte</a> from <a
-         href="https://vimeo.com/cedriclefebvre">Cedric Lefebvre</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-
+   <h4>Justin Sonnemann / Auszubildender Mediengestalter</h4>
+   <p>Wir bekamen die Aufgabe, bestimmte Elemente zu erstellen mit HTML und CSS.
+      Somit war meine Idee, eine ganze Homepage zu erstellen und die Aufgaben auf Unterseiten zu erstellen.
+      Sie können unter dem Punkt "Aufgaben" zu den einzelnen Elementen klicken.
+   </p>
 
 </section>
  <!--WORK-------------------------------------------------------------->
@@ -110,25 +65,52 @@
     <hr>
     <div id="projects">
        <ul>
-          <li><a href="unterseite.html"><img src="img/zutatenliste.jpg" alt="Projekt_01"></a></li>
-          <li><a href="#"><img src="img/tabelle.jpg" alt="Projekt_02"></a></li>
-          <li><a href="#"><img src="img/video.jpg" alt="Projekt_03"></a></li>
-          <li><a href="#"><img src="img/weitereaufgaben.jpg" alt="Projekt_04"></a></li>
-          <li><a href="#"><img src="img/weitereaufgaben.jpg" alt="Projekt_05"></a></li>
-          <li><a href="#"><img src="img/weitereaufgaben.jpg" alt="Projekt_06"></a></li>
-       </ul>
+          <li><a href="zutatenliste.html"><img src="img/zutatenliste.jpg" alt="Projekt_01"></a></li>
+          <li><a href="tabelle.html"><img src="img/tabelle.jpg" alt="Projekt_02"></a></li>
+          <li><a href="video.html"><img src="img/video.jpg" alt="Projekt_03"></a></li>
+          <li><a href="mehr.html"><img src="img/weitereaufgaben.jpg" alt="Projekt_04"></a></li>
+          <li><a href="mehr.html"><img src="img/weitereaufgaben.jpg" alt="Projekt_05"></a></li>
+          <li><a href="mehr-html"><img src="img/weitereaufgaben.jpg" alt="Projekt_06"></a></li>
+      </ul>
    </div>
 </section>
 <!--KONTAKT-------------------------------------------------------------->
-<section id="contact">
-   <h3>Contact</h3>
+<section id="contact" class="content-center">
+   <h3>Kontaktformular</h3>
    <hr>
-   <form>
-      <input class="input_text" type="email" tabindex="1" placeholder="E-Mail"><br>
-      <input class="input_text" type="text" tabindex="2" placeholder="Betreff"><br>
-      <textarea class="input_text" tabindex="3" placeholder="Nachricht"></textarea><br>
-      <button class="button" type="submit">Absenden</button>
-   </form>
+   <div style="margin-left: 40vw;">
+      <form>
+         <fieldset style="width: 600px; text-align: left;">
+            <legend>Absender:</legend>
+            <input class="input_text" type="text" tabindex="1" placeholder="Vorname:"><br>
+            <input class="input_text" type="text" tabindex="2" placeholder="Nachname:"><br>
+            <input class="input_text" type="text" tabindex="3" placeholder="Anschrift"><br>
+            <input class="input_text" type="text" tabindex="4" placeholder="PLZ:"><br>
+            <input class="input_text" type="text" tabindex="5" placeholder="Ort:"><br>
+            <input class="input_text" type="text" tabindex="5" placeholder="Email Adresse:"><br>
+         </fieldset>
+         <br>
+         <fieldset style="width: 600px; text-align: left;">
+            <legend>Anliegen:</legend>
+               <textarea name="message" rows="10" cols="30" placeholder="Platz für Ihr Anliegen:"></textarea>
+               <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+               <label for="vehicle1"> I have a bike</label><br>
+               <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+               <label for="vehicle2"> I have a car</label><br>
+               <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+               <label for="vehicle3"> I have a boat</label><br><br>
+               <label for="birthday">Gewünschter Termin:</label>
+               <input type="date" id="appointment" name="termin">
+         </fieldset>
+         <!-- <label>Gewünschtes Material</label> -->
+
+         <fieldset style="width: 600px; text-align: left;">
+            <legend>Abschicken:</legend>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+         </fieldset>
+      </form>
+   </div>
 </section>
 <!--FOOTER-------------------------------------------------------------->
 <footer>

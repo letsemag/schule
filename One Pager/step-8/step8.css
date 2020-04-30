@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: black;
+}
+
+h2, p {
+    color: blue;
+}
+
+p b {
+    color: red;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.black {
+    color: black;
+}
+
+.farbe {
+    color: orange;
+}
+
+#farbe {
+    color: blue;
+}
+
+span.farbe {
+    color: green;
+}
+
+span#farbe {
+    color: red;
+}
+
+.pseudo-buttons {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 2px;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: silver;
+    color: black;
+    transition: all 0.4s ease-in-out;
+}
+
+.pseudo-buttons:hover {
+    background-color: red;
+    color: white;
+}
+
+hr {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}

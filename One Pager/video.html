@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Berufsschule Homepage | One Pager Projekt</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--HEADER-------------------------------------------------------------->
+<header>
+   <div id="logo">
+      <a href="#">
+        <img src="img/logo.png" alt="Logo">
+      </a>
+   </div>
+   <nav id="main-nav">
+      <ul>
+         <li class="navbar-list"><a href="index.html">Startseite</a></li>
+         <li class="navbar-list"><a href="#about">Über mich und Aufgabe</a></li>
+         <li class="navbar-list"><a href="#work">weitere Aufgaben</a></li>
+         <li class="navbar-list"><a href="index.html#contact">Kontakt</a></li>
+      </ul>
+   </nav>
+</header>
+<!--HOME-------------------------------------------------------------->
+<section id="home">
+   <hr>
+   <h1>Video und Ton</h1>
+   <h2>HTML &amp; CSS</h2>
+   <a href="#about">
+      <img src="img/pfeil.png" alt="Pfeil">
+   </a>
+</section>
+<!--ABOUT-------------------------------------------------------------->
+<section id="about">
+   <h3>Aufgabe</h3>
+   <hr>
+   <p>Unten sind Videos mit loop,autoplay,poster und größe zusehen</p>
+  <h4>Externes Video</h4>
+
+  <iframe src="https://player.vimeo.com/video/380886323" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/380886323">What is HTML? | HTML PART 1</a> from <a href="https://vimeo.com/worthyprogrammer">Worthy Programmer</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<hr>
+<h4>Internes Video</h4>
+<video autoplay width="50%" height="50%" controls autoplay>
+    <source src="video/video.mp4" type="video/mp4">
+ </video>
+
+<video width="50%" height="50%" controls poster="img/weitereaufgaben.jpg" loop >
+    <source src="video/video.mp4" type="video/mp4">
+ </video>
+<hr>
+<h4>Audio</h4>
+<audio controls>
+   <source src="mp3/song.mp3" type="audio/mpeg">
+ Sorry - Ihr Browser hat keine Unterstützung für dieses Audio-Format.
+ </audio>
+
+
+   </section>
+ <!--WORK-------------------------------------------------------------->
+<section id="work">
+    <h3>Aufgaben</h3>
+    <hr>
+    <div id="projects">
+       <ul>
+         <li><a href="zutatenliste.html"><img src="img/zutatenliste.jpg" alt="Projekt_01"></a></li>
+         <li><a href="tabelle.html"><img src="img/tabelle.jpg" alt="Projekt_02"></a></li>
+         <li><a href="video.html"><img src="img/video.jpg" alt="Projekt_03"></a></li>
+         <li><a href="mehr.html"><img src="img/weitereaufgaben.jpg" alt="Projekt_04"></a></li>
+         <li><a href="mehr.html"><img src="img/weitereaufgaben.jpg" alt="Projekt_05"></a></li>
+         <li><a href="mehr.html"><img src="img/weitereaufgaben.jpg" alt="Projekt_06"></a></li>
+       </ul>
+   </div>
+</section>
+
+<!--FOOTER-------------------------------------------------------------->
+<footer>
+   <p>mit ❤ zum
+      <a href="https://www.foryu-media.de">Design in Lübeck</a>
+   | Justin Sonnemann
+   </p>
+</footer>
+</body>
+</html>
